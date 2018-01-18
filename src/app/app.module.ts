@@ -8,6 +8,7 @@ import { TitleComponent } from './title/title.component';
 import { FooterComponent } from './footer/footer.component';
 import { FilterPipe } from './filter.pipe';
 import { HelloComponent } from './hello/hello.component';
+import { SubTitleComponent } from './sub-title/sub-title.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { HelloComponent } from './hello/hello.component';
     TitleComponent,
     FooterComponent,
     FilterPipe,
-    HelloComponent
+    HelloComponent,
+    SubTitleComponent
   ],
   imports: [
     BrowserModule,
