@@ -9,6 +9,7 @@ import { FooterComponent } from './footer/footer.component';
 import { FilterPipe } from './filter.pipe';
 import { HelloComponent } from './hello/hello.component';
 import { SubTitleComponent } from './sub-title/sub-title.component';
+import { DrawlineComponent } from './drawline/drawline.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { SubTitleComponent } from './sub-title/sub-title.component';
     FooterComponent,
     FilterPipe,
     HelloComponent,
-    SubTitleComponent
+    SubTitleComponent,
+    DrawlineComponent
   ],
   imports: [
     BrowserModule,
